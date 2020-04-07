@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+    color: rgb(8, 83, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 1eml;
+margin: 0;
+}
+
+.container{ width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+#main-header{
+    background-color: rgb(255, 185, 33);
+    color: #fff;
+    animation-name: Ahmad;
+    animation-duration: 10s;
+
+}
+@keyframes Ahmad {
+    10%{background-color: rgb(253, 53, 120); }
+    20%{background-color:rgb(255, 185, 33); }
+    30%{background-color:  rgb(253, 53, 120); }
+    40%{background-color: rgb(255, 185, 33); }
+    50%{background-color:  rgb(253, 53, 120); }
+    60%{background-color: rgb(255, 185, 33); }
+    70%{background-color:  rgb(253, 53, 120); }
+    80%{background-color: rgb(255, 185, 33); }
+    90%{background-color:  rgb(253, 53, 120); }
+    100%{background-color: rgb(255, 185, 33); }
+}
+
+#main-nav{
+    background-color: #333;
+    color: #fff;
+}
+#main-nav ul{
+    padding: 0;
+    list-style: none;
+}
+#main-nav li{
+    display: inline;
+}
+#main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 100px;
+
+}
+#showcase{
+    background-image: url('../BG1.jpg');
+    background-repeat: no-repeat;
+   background-position: center center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#showcase h1{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 2px;
+    line-height: 1.6em;
+}
+.first{
+    text-align: center  ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+ margin-top: 170px;
+    padding: 18px;
+    background-color: rgb(63, 250, 104);
+    color: white;
+}
+.container2{
+    display: flex;
+}
+.box1{
+margin: 30px;
+padding: 10px;
+   
+    background-color: powderblue;
+    color: black;
+    border: 3px rgb(8, 83, 133) solid;
+}
+.box2{
+    margin: 30px;
+    padding: 10px;
+        background-color: powderblue;
+        color: black;
+        border: 3px rgb(8, 83, 133) solid;
+    }
+.box3{
+margin: 30px;
+padding: 10px;
+    background-color: powderblue;
+            color: black;
+            border: 3px rgb(8, 83, 133) solid;
+        }    
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:1px;
+    margin-top: 200px;
+}
+img{
+    border: rgb(157, 195, 245) 3px solid;
+background-color: rgb(124, 124, 124);
+}
